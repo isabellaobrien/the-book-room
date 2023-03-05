@@ -51,13 +51,25 @@ body{
 }
 
 #nav-bar a:hover{
-    text-decoration: underline;
+    border-bottom: 3px solid #59606E;
     color: #59606E;
 }
 
 .current-page{
-    text-decoration: underline;
+    border-bottom: 3px solid #2E3033;
 }
 
+/* opening image */
 
+#opening-image-container{
+    padding-top: 100px;
+
+}
+#opening-image{
+    width: 60%;
+    margin-left: 25px;
+    border-radius: 15px;
+    
+    
+}
 
