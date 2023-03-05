@@ -45,12 +45,12 @@ body{
     line-height: 75px;
 }
 
-a{
+#nav-bar a{
     text-decoration: none;
     color: #2E3033;    
 }
 
-a:hover{
+#nav-bar a:hover{
     text-decoration: underline;
     color: #59606E;
 }
