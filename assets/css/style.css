@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Tilt+Warp&display=swap&family=Gloock&display=swap');
 
 *{
     padding: 0;
@@ -63,13 +63,29 @@ body{
 
 #opening-image-container{
     padding-top: 100px;
-
+    position: relative;
 }
+
 #opening-image{
     width: 60%;
     margin-left: 25px;
-    border-radius: 15px;
-    
-    
+    border-radius: 15px;    
 }
 
+/* quote */
+
+#quote{
+   font-family: Gloock, sans-serif;
+   font-size: 110%;
+   position: absolute;
+   top: 40%;
+   left: 6%;
+   right: 40%;
+   color: white;
+   letter-spacing: 3px;
+   word-spacing: 10px; 
+}
+
+#quote h4{
+    float: right;
+}
