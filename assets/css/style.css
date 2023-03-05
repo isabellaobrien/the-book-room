@@ -7,7 +7,57 @@
 }
 
 body{
-    font-family: Dongle, sans-serif;
+    font-family: "Tilt Warp", sans-serif;
     font-size: large;
     color: #6B6A69;
 }
+
+/* web site logo */
+  
+#logo{
+    font-size: 250%;
+    font-weight: 300;
+    color: #2E3033;
+
+    float: left; 
+    margin-left: 25px;
+    
+    letter-spacing: 0.5px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    line-height: 75px;
+}
+
+/* navigation bar */
+
+#nav-bar > li{
+    font-size: 125%;
+    font-weight: 100;
+    list-style-type: none;
+    
+    margin-right: 25px;
+
+}
+
+#nav-bar{
+    display: flex;
+    float: right;
+    line-height: 75px;
+}
+
+a{
+    text-decoration: none;
+    color: #2E3033;    
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #59606E;
+}
+
+.current-page{
+    text-decoration: underline;
+}
+
+
+
