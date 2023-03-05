@@ -61,15 +61,11 @@ body{
 
 /* opening image */
 
-#opening-image-container{
-    padding-top: 100px;
-    position: relative;
-}
-
 #opening-image{
-    width: 60%;
+    width: 60%; 
     margin-left: 25px;
-    border-radius: 15px;    
+    border-radius: 15px;
+    position: relative;    
 }
 
 /* quote */
