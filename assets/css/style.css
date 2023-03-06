@@ -63,6 +63,7 @@ body{
 
 #opening-image{
     width: 50%; 
+    height:550px;
     margin-left: 25px;
     border-radius: 15px;
     position: relative; 
@@ -89,4 +90,22 @@ body{
 
 /* about section */
 
+#about h2{
+    font-size: 180%;
+    text-transform: uppercase;
+    line-height: 70px;
+    text-align: center;
+}
 
+#about p{
+    font-size: 250%;
+    font-family: Dongle, sans-serif;
+    line-height: 35px;   
+}
+
+#about{
+    margin-right: 25px;
+    position: absolute;
+    left: 55%;
+    top: 15%;
+}
