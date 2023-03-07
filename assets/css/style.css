@@ -141,3 +141,27 @@ body{
     position: absolute;
     top: 200%;
 }
+
+#contact-info{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 100%;
+}
+
+#contact-info i {
+    padding-right: 10px;
+}
+
+#links{
+    text-align: center;
+}
+
+#links > li{
+    display: inline;
+}
+
+#links i{
+    color: #2E3033;
+    font-size: 200%;
+    padding: 50px;
+}
