@@ -118,28 +118,24 @@ body{
 /* benefits of reading */
 
 #reading-benefits{
-    margin-left: 25px; 
-    position: absolute;
-    left: 10%;
-    right: 10%;
-    padding-top: 5%;
-     
+    margin-left: 5%; 
+    margin-right: 5%;
+    padding-top: 6%;
+    padding-bottom: 5%;
 }
 
 #reading-benefits h2{
     font-size: 180%;
     text-transform: uppercase;
-    line-height: 70px; 
+    line-height: 70px;
+    padding-bottom: 2%; 
 }
 
 /* social media links */
 
-#media{
-    width: 100%;
+ footer{
     height: 200px;
     background-color:#7B9E7F;
-    position: absolute;
-    top: 200%;
 }
 
 #contact-info{
