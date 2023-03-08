@@ -138,6 +138,10 @@ body{
     background-color:#7B9E7F;
 }
 
+footer li{
+    list-style-type: none;
+}
+
 #contact-info{
     text-align: center;
     padding-top: 20px;
