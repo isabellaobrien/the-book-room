@@ -166,16 +166,56 @@ footer li{
     padding: 50px;
 }
 
+/* sign up form */
 
-
-
-#sign-up-form{
+form{
     clear:both;
-    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5%;
+    margin-bottom: 10%;
+    background-color: #E6E6E3;
 }
 
- form, input{
+input{
     border: 1px solid black;
 }
 
+form h2{
+    text-align: center;
+    padding-bottom: 5%;
+}
 
+.personal-info {
+    padding-bottom: 5%;
+    display: inline-block;
+}
+
+input[type=text],input[type=email]{
+    padding: 3px;
+    border-radius: 2px;
+    width: 30%;
+    float: right;
+    margin-right: 30%;  
+} 
+
+.checkbox{
+    text-align: center;
+}
+
+input[type=submit]{
+    background-color: #595958;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    border: none;
+    float: right;
+    font-weight: 700;   
+    font-size: 100%;
+}
+
+input[type=submit]:hover{
+    background-color: #595958;
+    color: #D9D9D6;
+}
