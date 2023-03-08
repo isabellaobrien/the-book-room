@@ -219,3 +219,34 @@ input[type=submit]:hover{
     background-color: #595958;
     color: #D9D9D6;
 }
+
+/* final page */
+
+#final-image img{
+    width: 90%;
+    height: 700px;
+    border-radius: 1%;
+}
+
+#final-image{
+    position: relative;
+    text-align: center;
+    margin: 1%;
+}
+
+#thanks{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    font-size: 200%;
+    color: black;
+    padding: 0 20%;
+}
+
+#link-home{
+    color: orangered;
+    font-size: 150%;
+    position: absolute;
+    left: 40%;
+    bottom: 35%;
+}
