@@ -250,3 +250,42 @@ input[type=submit]:hover{
     left: 40%;
     bottom: 35%;
 }
+
+/* about events */
+
+#meetings{
+    clear: both;
+    font-size: 250%;
+    font-family: Dongle, sans-serif;
+    line-height: 35px; 
+    padding: 3% 5% 5%;
+}
+
+#events div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    overflow: hidden;
+    height: 500px;
+    display: inline-block;
+    margin: 0 1%;
+    border-radius: 5px;
+}
+
+#event1{
+    background: url("../images/macaroons\ and\ tea\ 2.jpg");
+}
+
+#event2{
+    background: url("../images/victoria\ sponge\ and\ tea.jpg"); 
+}
+
+#event3{
+    background: url("../images/tea\ and\ walnut\ cake.jpg");
+}
+
+#events{
+    text-align: center;
+}
+
