@@ -261,6 +261,7 @@ input[type=submit]:hover{
     padding: 3% 5% 5%;
 }
 
+/* events */
 #events div{
     background-repeat: no-repeat;
     background-size: cover;
@@ -289,3 +290,16 @@ input[type=submit]:hover{
     text-align: center;
 }
 
+#events h3{
+    margin-top: 10%;
+    background-color: rgba(218,218,218, 0.5);
+    padding: 10px 0;
+
+}
+#events h4{
+    background-color: rgba(218,218,218, 0.5);
+}
+
+#events a{
+    color: #2E3033;
+}
