@@ -303,3 +303,27 @@ input[type=submit]:hover{
 #events a{
     color: #2E3033;
 }
+
+/* book suggestions */
+#suggestions h2{
+    text-align: center;
+    padding: 5%;
+}
+
+#suggestions img{
+    width: 17%;
+    height: 350px;
+    padding: 0 1% 5%; 
+}
+
+#suggestions{
+    text-align: center;
+}
+
+.book-info{
+    display: inline-block;
+    width: 15%;
+    padding: 0 2% 5%;
+        
+}
+
