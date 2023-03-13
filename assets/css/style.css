@@ -310,20 +310,31 @@ input[type=submit]:hover{
     padding: 5%;
 }
 
-#suggestions img{
+ #suggestions img{
     width: 17%;
     height: 350px;
     padding: 0 1% 5%; 
+    display: inline-block;
 }
 
 #suggestions{
     text-align: center;
 }
 
-.book-info{
-    display: inline-block;
-    width: 15%;
-    padding: 0 2% 5%;
-        
-}
 
+
+
+
+.book-info{
+    width: 70%; 
+    
+}
+    
+    
+
+#description{
+    display: flex;
+    margin-left: 4%;
+    
+    
+}
