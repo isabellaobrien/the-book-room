@@ -133,7 +133,7 @@ body{
 
 /* social media links */
 
- footer{
+footer{
     height: 200px;
     background-color:#7B9E7F;
 }
@@ -339,5 +339,32 @@ input[type=submit]:hover{
     margin-left: 22px;
 }
 
+/* media query small screen sizes */
+@media screen and (max-width: 800px){
+    
+    #nav-bar{
+        clear: left;
+        float: left;
+        margin-left: 25px;
+    }
+
+    #opening-image{
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        height: 400px;
+    }
+    #about{
+        position: static;
+        margin-left: 25px;
+    }
+    #quote{
+        left: 12%;
+        right: 45%;
+    }
+    #benefits-list{
+        margin-left: 7%;
+    }
+}
 
 
