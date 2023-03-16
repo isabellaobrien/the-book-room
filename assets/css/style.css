@@ -172,9 +172,10 @@ form{
     clear:both;
     margin-left: 25%;
     margin-right: 25%;
-    padding: 5%;
+    padding: 3%;
     margin-bottom: 10%;
     background-color: #E6E6E3;
+    position: relative;
 }
 
 input{
@@ -194,9 +195,9 @@ form h2{
 input[type=text],input[type=email]{
     padding: 3px;
     border-radius: 2px;
-    width: 30%;
+    width: 40%;
     float: right;
-    margin-right: 30%;  
+    margin-right: 20%; 
 } 
 
 .checkbox{
@@ -205,14 +206,16 @@ input[type=text],input[type=email]{
 
 input[type=submit]{
     background-color: #595958;
-    padding: 12px 20px;
+    padding: 6px 10px;
     border-radius: 4px;
     cursor: pointer;
     margin: 0 auto;
     border: none;
-    float: right;
     font-weight: 700;   
     font-size: 100%;
+    position: absolute;
+    right:8%;
+    bottom: 2.5%;
 }
 
 input[type=submit]:hover{
@@ -332,11 +335,7 @@ input[type=submit]:hover{
 .book{
     display: inline-flex;
     width: 15%;
-    padding: 0 2.2% 5%; 
-}
-
-#description{
-    margin-left: 22px;
+    padding: 0 2% 5%; 
 }
 
 /* media query small screen sizes */
@@ -354,17 +353,50 @@ input[type=submit]:hover{
         margin-left: 5%;
         height: 400px;
     }
+
     #about{
         position: static;
         margin-left: 25px;
     }
+
     #quote{
         left: 12%;
         right: 45%;
     }
+
     #benefits-list{
         margin-left: 7%;
     }
+    
+
+    #suggestions img{
+        height: 240px;
+    }
+    #suggestions{
+        text-align: left;
+    }
+    .book{
+        padding: 0 0 5% 4%; 
+    }
+    #description{
+        font-size: 70%;
+    }
+
+
+    
+
+    input[type=text],input[type=email]{
+    width: 50%;  
+    margin-right: 3%;
+    } 
+
+    form{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 10%;
+    }
+
+    
+
+
 }
-
-
