@@ -68,6 +68,7 @@ body{
     border-radius: 15px;
     position: relative; 
     margin-top: 30px; 
+    margin-bottom: 1%;
 }
 
 /* quote */
@@ -113,8 +114,11 @@ body{
     top: 20%;
 }
 
-#about a{
-    color:#7B9E7F;
+.link-to-benefits{
+    color: #FE5000;
+    font-family: Dongle, sans-serif;
+    font-size: 200%;
+    margin-left: 3%;
 }
 
 
@@ -122,16 +126,17 @@ body{
 
 #benefits-list{
     margin-left: 5%; 
-    padding-bottom: 7%;
     padding-top: 2%;
+}
+#benefits-list li{
+    padding-bottom: 2%;
 }
 
 #reading-benefits h2{
     margin-left: 5%; 
     font-size: 180%;
-    text-transform: uppercase;
     line-height: 70px;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 /* social media links */
@@ -139,7 +144,7 @@ body{
 footer{
     height: 200px;
     background-color:#7B9E7F;
-    margin-top: 8%;
+    margin-top: 2%;
 }
 
 footer li{
