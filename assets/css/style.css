@@ -137,6 +137,7 @@ body{
     font-size: 180%;
     line-height: 70px;
     padding-top: 2%;
+    text-transform: uppercase;
 }
 
 /* social media links */
@@ -176,15 +177,24 @@ footer li{
 }
 
 /* sign up form */
-
-form{
+#form-background{
+    width: 50%;
+    height: 650px;
+    background: url("../images/sign-up-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: 0 auto;
     clear:both;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding: 3%;
+}
+form{
+    margin: 2.5% 10%;
+    padding: 10%;
     margin-bottom: 10%;
-    background-color: #E6E6E3;
     position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+    color:black;
 }
 
 input{
@@ -210,11 +220,12 @@ input[type=text],input[type=email]{
 } 
 
 .checkbox{
-    text-align: center;
+    text-align: left;
 }
 
 input[type=submit]{
-    background-color: #595958;
+    background-color: #FE5000;
+    color: white;
     padding: 6px 10px;
     border-radius: 4px;
     cursor: pointer;
@@ -228,8 +239,8 @@ input[type=submit]{
 }
 
 input[type=submit]:hover{
-    background-color: #595958;
-    color: #D9D9D6;
+    background-color: white;
+    color: #FE5000;
 }
 
 /* final page */
@@ -344,8 +355,8 @@ input[type=submit]:hover{
 .book{
     display: inline-flex;
     width: 15%;
-    padding: 0 2% 5%; 
-}
+    padding: 0 2% 5%;
+} 
 
 /* media query medium screen sizes */
 @media screen and (max-width: 950px){
@@ -399,10 +410,9 @@ input[type=submit]:hover{
     margin-right: 3%;
     } 
 
-    form{
-        width: 70%;
-        margin: 0 auto;
-        margin-bottom: 10%;
+    #form-background{
+        width: 90%;
+        height: 120%;
     }
 
     #link-home{
@@ -466,11 +476,5 @@ input[type=submit]:hover{
         font-size: 80%;
         right:4%;
         bottom: 2.5%;
-    }
-    form{
-        font-size: 75%;
-    }
-    form h2{
-        font-size: 130%;
     }
 }

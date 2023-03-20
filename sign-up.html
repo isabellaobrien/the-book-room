@@ -25,61 +25,64 @@
         </nav>
     </header>
     <section>
-        <form action="confirmation.html" method="get">
-            <h2>Sign Up to become a member of The Book Room!</h2>
+        <div id="form-background">
+            <form action="confirmation.html" method="get">
+                <h2>Sign Up to become a member of The Book Room!</h2>
+    
+                <label for="fname" class="personal-info">First Name:</label>
+                <input id="fname" type="text" required><br>
+    
+                <label for="lname" class="personal-info">Last Name:</label>
+                <input id="lname" type="text" required><br>
+    
+                <label for="email" class="personal-info">Email address:</label>
+                <input id="email" type="email" required><br>
+    
+                <p class="personal-info">Book genre preferences:</p>
+                <div class="checkbox">
+                    <input type="checkbox" id="genre1">
+                    <label for="genre1">fantasy</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="genre2">
+                    <label for="genre2">science fiction</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="genre3">
+                    <label for="genre3" class="checkbox">mystery</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="genre4">
+                    <label for="genre4" class="checkbox">biography</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="genre5">
+                    <label for="genre5" class="checkbox">self-help</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="genre6">
+                    <label for="genre6" class="checkbox">history</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="genre7">
+                    <label for="genre7" class="checkbox">true crime</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="genre8">
+                    <label for="genre8" class="checkbox">humor</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="genre9">
+                    <label for="genre9" class="checkbox">classics</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="genre10">
+                    <label for="genre10" class="checkbox">romance</label>
+                </div>
+                <input type="submit" value="Sign Up">
+            </form>
 
-            <label for="fname" class="personal-info">First Name:</label>
-            <input id="fname" type="text" required><br>
-
-            <label for="lname" class="personal-info">Last Name:</label>
-            <input id="lname" type="text" required><br>
-
-            <label for="email" class="personal-info">Email address:</label>
-            <input id="email" type="email" required><br>
-
-            <p class="personal-info">Book genre preferences:</p>
-            <div class="checkbox">
-                <label for="genre1">fantasy</label>
-                <input type="checkbox" id="genre1">
-            </div>
-            <div class="checkbox">
-                <label for="genre2">science fiction</label>
-                <input type="checkbox" id="genre2">
-            </div>
-            <div class="checkbox">
-                <label for="genre3" class="checkbox">mystery</label>
-                <input type="checkbox" id="genre3">
-            </div>
-            <div class="checkbox">
-                <label for="genre4" class="checkbox">biography</label>
-                <input type="checkbox" id="genre4">
-            </div>
-            <div class="checkbox">
-                <label for="genre5" class="checkbox">self-help</label>
-                <input type="checkbox" id="genre5">
-            </div>
-            <div class="checkbox">
-                <label for="genre6" class="checkbox">history</label>
-                <input type="checkbox" id="genre6">
-            </div>
-            <div class="checkbox">
-                <label for="genre7" class="checkbox">true crime</label>
-                <input type="checkbox" id="genre7">
-            </div>
-            <div class="checkbox">
-                <label for="genre8" class="checkbox">humor</label>
-                <input type="checkbox" id="genre8">
-            </div>
-            <div class="checkbox">
-                <label for="genre9" class="checkbox">classics</label>
-                <input type="checkbox" id="genre9">
-            </div>
-            <div class="checkbox">
-                <label for="genre10" class="checkbox">romance</label>
-                <input type="checkbox" id="genre10">
-            </div>
-            <input type="submit" value="Sign Up">
-        </form>
+        </div>
     </section>
     <footer>
         <ul id="contact-info">
