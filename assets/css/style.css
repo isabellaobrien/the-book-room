@@ -34,9 +34,7 @@ body{
     font-size: 125%;
     font-weight: 100;
     list-style-type: none;
-    
     margin-right: 25px;
-
 }
 
 #nav-bar{
@@ -71,7 +69,7 @@ body{
     margin-bottom: 1%;
 }
 
-/* quote */
+/* quote (that will be on the opening image)*/
 
 #quote{
    font-family: Gloock, sans-serif;
@@ -89,7 +87,7 @@ body{
     float: right;
 }
 
-/* about section */
+/* about section (that will be next to the image)*/
 
 #about h2{
     font-size: 180%;
@@ -122,12 +120,13 @@ body{
 }
 
 
-/* benefits of reading */
+/* benefits of reading section ( that will open in another page)*/
 
 #benefits-list{
     margin-left: 5%; 
     padding-top: 2%;
 }
+
 #benefits-list li{
     padding-bottom: 2%;
 }
@@ -140,7 +139,7 @@ body{
     text-transform: uppercase;
 }
 
-/* social media links */
+/* footer ( which will contain) */
 
 footer{
     height: 200px;
@@ -243,7 +242,7 @@ input[type=submit]:hover{
     color: #FE5000;
 }
 
-/* final page */
+/* thanks for signing up page */
 
 #final-image img{
     width: 90%;
@@ -274,7 +273,7 @@ input[type=submit]:hover{
     bottom: 20%;
 }
 
-/* about events */
+/* about events section (paragraoh about the events)*/
 
 #meetings{
     clear: both;
@@ -290,7 +289,7 @@ input[type=submit]:hover{
     padding: 0 5% 3%;
 }
 
-/* events */
+/* events ( images with details about events)*/
 
 #events div{
     background-repeat: no-repeat;
@@ -341,10 +340,11 @@ input[type=submit]:hover{
 }
 
 #suggestions img{
-    width: 17%;
+    width: 50%;
     height: 350px;
     padding: 0 1% 3%; 
     display: inline-block;
+    margin: 0 auto;
 }
 
 #suggestions{
@@ -356,11 +356,12 @@ input[type=submit]:hover{
     display: inline-flex;
     width: 15%;
     padding: 0 2% 5%;
+    text-align: center;
 } 
 
 /* media query medium screen sizes */
 @media screen and (max-width: 950px){
-    
+    /* index.html */
     #nav-bar{
         clear: left;
         float: left;
@@ -383,12 +384,8 @@ input[type=submit]:hover{
         left: 12%;
         right: 45%;
     }
-
-    #benefits-list{
-        margin-left: 7%;
-    }
     
-
+    /* events.html */
     #suggestions img{
         height: 240px;
     }
@@ -404,7 +401,7 @@ input[type=submit]:hover{
 
 
     
-
+    /* sign-up.html */
     input[type=text],input[type=email]{
     width: 50%;  
     margin-right: 3%;
@@ -421,7 +418,7 @@ input[type=submit]:hover{
 }
 
 @media screen and (max-width:500px) {
-
+    /* index.html */
     #logo, #nav-bar{
         line-height: 60px;
     }
@@ -438,11 +435,6 @@ input[type=submit]:hover{
         font-size: 200%;  
     }
 
-    #benefits-list{
-        margin-left: 10%; 
-    }
-
-
     footer{
         height: 150px;
     }
@@ -454,7 +446,7 @@ input[type=submit]:hover{
         font-size: 150%;
         padding:30px;
     }
-
+    /* events.html */
     #events div{
         width: 80%;
         margin-bottom: 10%;
@@ -470,7 +462,7 @@ input[type=submit]:hover{
     #description{
         display: none;
     }
-
+    /* sign-up.html */
     input[type=submit]{
         padding: 3px 5px;   
         font-size: 80%;
