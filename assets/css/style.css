@@ -469,6 +469,7 @@ input[type=submit]:hover{
         right:4%;
         bottom: 2.5%;
     }
+<<<<<<< HEAD
 }
 @media screen and (min-width: 1050px) {
     #opening-image{
@@ -476,4 +477,13 @@ input[type=submit]:hover{
         margin-right: 400px;
     }
     
+=======
+} 
+
+@media screen and (min-width:1050px){
+    #opening-image{
+        margin-top: 100px;
+        margin-right: 200px;
+    }
+>>>>>>> 3c1fc9b (add media query for large screen sizes over 1050px)
 }
