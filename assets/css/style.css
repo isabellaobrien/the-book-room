@@ -470,3 +470,10 @@ input[type=submit]:hover{
         bottom: 2.5%;
     }
 }
+@media screen and (min-width: 1050px) {
+    #opening-image{
+        margin-top: 100px;
+        margin-right: 400px;
+    }
+    
+}
