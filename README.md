@@ -7,7 +7,7 @@ On the book room  users can access all the information they need. They can find 
 ![screenshots of the website on four different screen sizes: Desktop, Laptop, Tablet and Phone](assets/images/Screenshot%20(6).png)
 
 ## Features
-
+***
 - ### Navigation:
     - The navigation bar is situated at the top of each page and it contains the web site logo which is link to the home page.
     - The navigation bar also contains links to the home page, the events page and the sign up page.
@@ -69,6 +69,7 @@ On the book room  users can access all the information they need. They can find 
 ![screenshot of sign up form](assets/images/Screenshot%20(21).png)
 
 ## Testing
+***
 | Action | Expected behaviour | Pass or Fail |
 |---|---|---|
 | enter URl in browser | the landing page of the website should diplay on the screen | Pass |
@@ -90,4 +91,26 @@ On the book room  users can access all the information they need. They can find 
 - I confirmed the website's accesibility and readability by using lighthouse on devtools.
 
 ![screenshoot of the website's accesibility performance practice and SEO](assets/images/Screenshot%20(22).png)
+
+## Deployment
+***
+- The site was deployed via github pages:
+    - I naviagted to my github repository.
+    - I clicked settings.
+    - In the settings I looked for Pages.
+    - In pages I changed the branch option from none to main.
+    - I then saved and my webdite was deployed.
+
+This is the live link : [THE BOOK ROOM](https://isabellaobrien.github.io/the-book-room/)
+
+- ### Local Deployment
+    - I naviagted to my github repository.
+    - I clicked code.
+    - I then clicked te copy icon next to my web link.
+    - I navigated to the terminal and entered the coomand " git clone ctrl+V(to paste the copy of my site) enter "
+
+
+
+
+
 
