@@ -68,6 +68,21 @@ On the book room  users can access all the information they need. They can find 
 ***
 ![screenshot of sign up form](assets/images/Screenshot%20(21).png)
 
+## Testing
+| Action | Expected behaviour | Pass or Fail |
+|---|---|---|
+| enter URl in browser | the landing page of the website should diplay on the screen | Pass |
+| click Home on the navigation bar | the home page should show up on he screen | Pass |
+| click Events on the navigation bar | the events page should show up on he screen | Pass |
+| click Sign up on the navigation bar | the sign up page should show up on he screen | Pass |
+| click the website logo | the home page should show up on he screen | Pass|
+| click find ou more about the benefits of reading | the benefits of reading section will show up on the screen | Pass |
+| click return to home page/go back to home page | the home page should show up on he screen | Pass |
+| click the events | the sign up page sould appear | Pass |
+| click the meadia icons | it should take you so the social media platform on a separate tab | Pass |
+| click the sign up button before you've filled the input fields | the inpuct field taht was left empty should appear highlighted | Pass|
+| enter an invalid email in the input field | it should ask you to enter a valid email | Pass |
+| click the sign up button once you've filled in the form correctly | you should receive a confirmation | Pass |
 
 
 
