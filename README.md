@@ -84,5 +84,10 @@ On the book room  users can access all the information they need. They can find 
 | enter an invalid email in the input field | it should ask you to enter a valid email | Pass |
 | click the sign up button once you've filled in the form correctly | you should receive a confirmation | Pass |
 
+### Validator testing
+- I tested the  HTML with the W3C markup validation service and no errors or warnings were returned.
+- I tested the CSS with the W3C CSS validation service and no errors were found.
+- I confirmed the website's accesibility and readability by using lighthouse on devtools.
 
+![screenshoot of the website's accesibility performance practice and SEO](assets/images/Screenshot%20(22).png)
 
