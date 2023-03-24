@@ -90,7 +90,7 @@ On the book room  users can access all the information they need. They can find 
 - I tested the CSS with [the W3C CSS validation service](https://jigsaw.w3.org/css-validator/) and no errors were found.
 - I confirmed the website's accesibility and readability by using lighthouse on devtools.
 
-![screenshoot of the website's accesibility performance practice and SEO](assets/images/Screenshot%20(22).png)
+![screenshoot of the website's accesibility performance practice and SEO](assets/images/Screenshot%20(25).png)
 
 ## Deployment
 ***
@@ -107,21 +107,19 @@ This is the live link : [THE BOOK ROOM](https://isabellaobrien.github.io/the-boo
     - I naviagted to my github repository.
     - I clicked code.
     - I then clicked te copy icon next to my web link.
-    - I navigated to the terminal and entered the coomand " git clone ctrl+V(to paste the copy of my site) enter "
+    - I navigated to the command prompt and entered the coomand " git clone ctrl+V(to paste the copy of my site) enter "
 
 ## Credits
 ***
-### Cotent 
 - **Fakexy**: fake address generator that also provides you with phone number and postcode.
 - **colorcodes.io**: color shades with hex, rgba and colour name with variations.
 - **fontawesome**: icons for media links, phone, email, location.
 - **reedsy**: blog post "100 books to read before you die".
-- **W3 schools**: information about CSS forms.
+- **W3 school**: information about CSS forms.
 - **Pexels**: free downloadable pictures.
-- **Stackoverflow**: keeping the order of unordered list in navigation bar while using float:right. The aswer is diplay: flex.
-- **Google Fonts**: 
-- **geeksforgeeks.org**: "How to target desktop, tablet and mobile using Media Query?"
-- **Nerdish**: "how much to read each day"
+- **Stackoverflow**: keeping the order of unordered list in navigation bar while using float:right. The answer is display: flex.
+- **Nerdish**: "how much to read each day?" artcle.
+- **Love Running Project**: code for creating the media links in the footer and code for sizing images.
 
 
 
