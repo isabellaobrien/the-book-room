@@ -111,13 +111,14 @@ This is the live link : [THE BOOK ROOM](https://isabellaobrien.github.io/the-boo
 
 ## Credits
 ***
+### Cotent 
 - **Fakexy**: fake address generator that also provides you with phone number and postcode.
 - **colorcodes.io**: color shades with hex, rgba and colour name with variations.
 - **fontawesome**: icons for media links, phone, email, location.
 - **reedsy**: blog post "100 books to read before you die".
 - **W3 schools**: information about CSS forms.
 - **Pexels**: free downloadable pictures.
-- **Stackoverflow**: keeping the order of <ul> in navigation bar while using float:right. The aswer is diplay: flex.
+- **Stackoverflow**: keeping the order of unordered list in navigation bar while using float:right. The aswer is diplay: flex.
 - **Google Fonts**: 
 - **geeksforgeeks.org**: "How to target desktop, tablet and mobile using Media Query?"
 - **Nerdish**: "how much to read each day"
