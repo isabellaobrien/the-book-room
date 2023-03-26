@@ -25,7 +25,7 @@ On the book room, users can access all the information they need. They can find 
     - The about us section tells the user what The Book Room stands for. 
     - The about us section shows the user how reading is a habit that everyone can pick up and therefore the viewer could see the value in signing up to the website.
 ***
-![screenshot of the about us section](assets/images/Screenshot%20(13).png)
+![screenshot of the about us section](assets/images/Screenshot%20(29).png)
 
 - ### Benefits of reading:
     - The benefits of reading section contains a list of benefits tied to reading regularly.
@@ -33,7 +33,7 @@ On the book room, users can access all the information they need. They can find 
     - This section gives the user a list of reasons why joining the book room would be beneficial to them.
 ***
 ![screenshot of the link to the benefits of reading section ](assets/images/Screenshot%20(14).png)
-![screenshot of the benefits of reading section](assets/images/Screenshot%20(18).png)
+![screenshot of the benefits of reading section](assets/images/Screenshot%20(30).png)
 
 
 - ### Footer:
@@ -47,7 +47,7 @@ On the book room, users can access all the information they need. They can find 
     - The about events section contains information about the meet-ups.
     - The user can easily become familiar with how The Book Room works.
 ***
-![screenshot of about events section](assets/images/Screenshot%20(16).png)
+![screenshot of about events section](assets/images/Screenshot%20(31).png)
 
 - ### Events:
     - The events section contains multiple images of the tea and cake choices that will be available. On top of the image there’s information about the meet-up such as time, date and what to expect.
@@ -102,7 +102,7 @@ mobile:
 ## Deployment
 ***
 - The site was deployed via github pages:
-    - I naviagted to my github repository.
+    - I navigated to my github repository.
     - I clicked settings.
     - In the settings I looked for Pages.
     - In pages I changed the branch option from none to main.
@@ -111,7 +111,7 @@ mobile:
 This is the live link : [THE BOOK ROOM](https://isabellaobrien.github.io/the-book-room/)
 
 - ### Local Deployment
-    - I naviagted to my github repository.
+    - I navigated to my github repository.
     - I clicked code.
     - I then clicked the copy icon next to my web link.
     - I navigated to the command prompt and entered the command " git clone ctrl+V(to paste the copy of my site) enter "
@@ -129,7 +129,7 @@ This is the live link : [THE BOOK ROOM](https://isabellaobrien.github.io/the-boo
 - ### Code:
     - **W3 school**: information about CSS forms.
     - **Stackoverflow**: keeping the order of unordered list in navigation bar while using "float:right". The answer is "display: flex".
-    - **Love Running Project**: code for creating the media links in the footer and code for sizing images.
+    - **Love Running Project**: code for creating the media links in the footer and code for inserting and sizing images.
 
 
 
